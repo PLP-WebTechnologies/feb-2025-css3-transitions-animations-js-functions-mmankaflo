@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Haven - Online Book Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Book Haven</h1>
+    <h2>Your Favorite Online Book Shop</h2>
+    <p class="intro">Discover a curated selection of timeless classics and modern bestsellers. Enjoy fast shipping, secure checkout, and personalized recommendations. Join our community of book lovers today!</p>
+    <ul class="features">
+        <li>✨ Handpicked book collections</li>
+        <li>🚚 Free shipping on orders over $50</li>
+        <li>🔒 Secure payment & checkout</li>
+        <li>🌙 Light & dark theme options</li>
+        <li>⭐ Save your favorite books</li>
+    </ul>
+    <div class="book-list">
+        <div class="book-card">
+            <img class="book-img" src="https://covers.openlibrary.org/b/id/10523338-L.jpg" alt="Book Cover" />
+            <h3>The Great Gatsby</h3>
+            <p>by F. Scott Fitzgerald</p>
+            <p class="price">$12.99</p>
+            <a href="checkout-gatsby.html" class="buyBtn" data-title="The Great Gatsby" data-author="F. Scott Fitzgerald" data-img="https://covers.openlibrary.org/b/id/10523338-L.jpg">Buy Now</a>
+        </div>
+        <div class="book-card">
+            <img class="book-img" src="https://covers.openlibrary.org/b/id/11153223-L.jpg" alt="Book Cover" />
+            <h3>1984</h3>
+            <p>by George Orwell</p>
+            <p class="price">$10.49</p>
+            <a href="checkout-1984.html" class="buyBtn" data-title="1984" data-author="George Orwell" data-img="https://covers.openlibrary.org/b/id/11153223-L.jpg">Buy Now</a>
+        </div>
+        <div class="book-card">
+            <img class="book-img" src="https://covers.openlibrary.org/b/id/10958309-L.jpg" alt="Book Cover" />
+            <h3>To Kill a Mockingbird</h3>
+            <p>by Harper Lee</p>
+            <p class="price">$14.25</p>
+            <a href="checkout-mockingbird.html" class="buyBtn" data-title="To Kill a Mockingbird" data-author="Harper Lee" data-img="https://covers.openlibrary.org/b/id/10958309-L.jpg">Buy Now</a>
+        </div>
+    </div>
+    <div class="preferences">
+        <label for="colorPref">Choose your shop theme color:</label>
+        <input type="color" id="colorPref">
+        <button id="savePref">Save Theme</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Book Haven. All rights reserved. | <a href="contact.html">Contact Us</a> | <a href="#">FAQ</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
